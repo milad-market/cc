@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-vazir: 'Vazirmatn', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-space: 'Space Grotesk', 'Vazirmatn', sans-serif;
+    --font-outfit: 'Outfit', 'Vazirmatn', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-vazir);
+    background-color: #10131f;
+    color: #e1e1f3;
+  }
+}
+
+.font-vazir {
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+.font-space {
+  font-family: 'Space Grotesk', 'Vazirmatn', sans-serif;
+}
+
+.font-outfit {
+  font-family: 'Outfit', 'Vazirmatn', sans-serif;
+}
+
+.font-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0d1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #272937;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00f5d4;
+}
